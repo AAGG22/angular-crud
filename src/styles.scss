@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: #02AAB0; /* Color sólido de fondo como fallback */
+    background: -webkit-linear-gradient(left, #00CDAC, #02AAB0); /* Gradiente para navegadores con prefijo webkit */
+    background: -moz-linear-gradient(left, #00CDAC, #02AAB0); /* Gradiente para navegadores con prefijo Mozilla */
+    background: -o-linear-gradient(left, #00CDAC, #02AAB0); /* Gradiente para navegadores Opera */
+    background: linear-gradient(to left, #00CDAC, #02AAB0); /* Gradiente estándar sin prefijos */
+}
+
+
